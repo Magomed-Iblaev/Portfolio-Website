@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+   
+    .shell{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .container{
+      height: 374px;
+      width: 374px;
+      display: grid;
+      grid-template-rows: 207px 65px 77.5px 10px;
+      grid-template-columns: 160px 99px 76.5px 25px;
+      gap: 4.5px;
+      background-color: #000;
+    
+    }
+
+    .header {
+      padding-bottom: 20px;
+    }
+
+    .item{
+      background-color:#F0F1EC ;
+    }
+    
+    .red{
+      background-color:#E72F24 ;
+      
+    }
+    
+    .white1{
+     grid-column: span 3;
+    }
+    .white2{
+      grid-row: span 2;
+    }
+    .white3{
+      grid-area: 2/2/4/4;
+    }
+
+    .blue{
+      background-color: #004592;
+      border-bottom:10px solid;
+    }
+    .white4{
+      grid-row: span 2;
+    }
+    .yellow{
+      background-color:#F9D01E ;
+      
+    }
+    .black{
+      background-color: #232629;
+    }
+
+    .white5{
+      grid-area: 4/ 1/5/2;
+      
+    }
+
+    .text {
+      padding-top:20px ;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="shell">
+   <h2 class="header">Mondrian Project</h2> 
+    <div class="container">
+     <div class="item red"></div>
+     <div class="item white1"></div>
+     <div class="item white2"></div>
+     <div class="item white3"></div>
+     <div class="item blue"></div>
+     <div class="item white4 "></div>
+     <div class="item yellow"></div>
+     <div class="item black"></div>
+     <div class="item white5"></div>
+    </div>
+    <p class="text">
+      The goal of this project was to remake the art of the well-known artist Piet Mondrian.  <br>
+      This had to be achieved using only the CSS element 'Grid'
+    </p>
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+.backround-colour {
+    background-color: #DDE1E4;
+}
+.header-section {
+    background-color:#8DA6Bc ;
+    height: 80px;
+}
+
+.header-font-text {
+    font-family:monospace;
+
+}
+.other-font-text {
+    font-family:'Arial Narrow', sans-serif;
+}
+
+.moon-shell{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+   
+}
+
+.red-moon{  
+background-color:crimson ;
+width: 60px; 
+height: 60px;  
+border-radius: 50%;
+
+
+} 
+
+.inner-moon {
+    background-color:#8DA6Bc ;
+    height: 40px;
+    width: 46px;
+    border-radius: 50%;
+    position: relative;
+    left: 15px;
+    top: 10px;
+
+}
+
+.moon-text {
+    font-family:monospace;
+    position: relative;
+    left: 5px;
+    top: 5px;  
+}
+
+.buttons {
+    font-size: larger;
+}
+
+.birds {
+    position: absolute;
+}
+
+.title-section {
+padding-top: 5px;
+}
+
+.title-header {
+ font-size: 60px;
+}
+
+.title-text{
+    font-size: 25px;
+}
+
+.feature-section {
+padding-top: 40px;
+}
+
+
+.skill-shell2 {
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-around;
+padding: 20px;
+}
+ 
+.prgress-bar-shell{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.prgress-bar{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+
+.inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);   
+}
+
+.number {
+    font-weight: 700;
+    color: #555;
+}
+
+.html-cicle {
+    fill: none ;
+    stroke:#E44D26 ;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+
+.css-cicle {
+    fill: none ;
+    stroke:#1572B6 ;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim1 2s linear forwards;
+}
+.script-cicle {
+    fill: none ;
+    stroke:#E5A228 ;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 2s linear forwards;
+}
+.prgress-bar-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 89.8;
+    }
+
+}
+
+@keyframes anim1 {
+    100% {
+        stroke-dashoffset: 200.4;
+    }
+
+}
+
+@keyframes anim3 {
+    100% {
+        stroke-dashoffset: 428.8;
+    }
+
+}
+
+.second-skill-set {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 50px;
+}
+
+.skill-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-header > p {
+    font-size:40px;
+    font-weight: 400;
+}
+
+.grid-skills {
+    display: grid;
+    grid-template-columns: 1.5fr 3.5fr;
+}
+
+.grid-skills-text {
+    display: grid;
+    grid-template-columns: 1.5fr 3.5fr;
+    margin-top: 3rem;
+}
+
+.big-question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-weight: 500;
+}
+
+.text {
+    font-size: larger;
+}
+
+.projects-header{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.about-container{
+    background-color:#95a4ae ;
+}
+.about-header {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.about-me-img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

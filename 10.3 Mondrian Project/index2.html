@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project 2</title>
+
+<style>
+.shell{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    height: 380px;
+    width: 380px;
+    display: grid;
+    grid-template-columns: 38px 126.6px 111.3px 86.6px;
+    grid-template-rows: 154.6px 80.6px 116.6px 9.6px;
+    background-color: black;
+    gap: 6px;
+}
+
+.header {
+      padding-bottom: 20px;
+    }
+.inner-header{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    background-color:#F0F1EC ;
+}
+.red{
+    background-color: #E72F24;
+    grid-column: span 2;
+}
+.white1{
+    grid-column: span 2
+}
+.white2{
+    grid-column: span 2
+}
+.white3{
+    grid-column: span 2
+}
+.yellow{
+    background-color: #F9D01E;
+    grid-row: span 2;
+}
+.white4{
+    grid-row: span 2
+}
+.blue{
+    background-color: #004592;
+}
+.white5{
+    grid-row: span 2
+}
+
+.text {
+      padding-top:20px ;
+    }
+
+</style>
+
+
+</head>
+<body>
+    <div class="shell">
+        <div class="header">
+     <h2 class="outer-header">Mondrian Project.</h2>
+     <h3 class="inner-header">Second Try </h3>
+    </div>
+       <div class="container">
+           <div class="item red"></div>
+           <div class="item white1"></div>
+           <div class="item white2"></div>
+           <div class="item white3"></div>
+           <div class="item yellow"></div>
+           <div class="item white4"></div>
+           <div class="item blue"></div>
+           <div class="item white5"></div>
+           <div class="item white6"></div>
+        </div>
+        <p class="text">
+            The goal of this project was to remake the art of the well-known artist Piet Mondrian.  <br>
+            This had to be achieved using only the CSS element 'Grid'
+        </p>
+        <p>
+            I chose to do it a second time because the first time was harder than I expected <br> 
+            it to be, so some more practice wouldn't be bad.
+        </p>
+        
+</div>
+</body>
+</html>
